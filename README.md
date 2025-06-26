@@ -1,12 +1,45 @@
-# React + Vite
+# 📽️ MovieDux
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MovieDux is a simple React application that allows users to **browse, search, and filter movies** by **genre** and **rating**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+- 🔍 Search movies by title
+- 🎬 Filter by Genre (Action, Drama, Fantasy, Horror)
+- ⭐ Filter by Rating (Good, Ok, Bad)
+- 📦 JSON-based movie data
+- 💡 Clean and responsive UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📚 What I Learned
+
+-  How to use `useState` to manage component state
+-  How to use `useEffect` to fetch data on component mount
+-  Handling input fields and dropdown filters in React
+-  Filtering arrays dynamically based on multiple conditions
+
+
+## 🛠️ Tech Stack
+
+- React (Hooks)
+- HTML/CSS
+- JavaScript
+- Local JSON file (`movies.json`)
+
+---
+
+## 📂 Folder Structure
+
+MovieDux/
+├── public/
+│ └── movies.json
+├── src/
+│ ├── MovieCard.jsx
+│ ├── MoviesGrid.jsx
+│ ├── styles.css
+│ └── App.jsx
+├── package.json
+└── README.md
