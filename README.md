@@ -43,3 +43,7 @@ MovieDux/
 │ └── App.jsx
 ├── package.json
 └── README.md
+
+
+
+demo video 
